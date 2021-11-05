@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Trabalho1</string>
+
+    <!-- ToggleButton -->
+    <string name="toggle_turn_on">Completa</string>
+    <string name="toggle_turn_off">Em Andamento</string>
+    <!-- fim ToggleButton -->
+
+    <!-- options menu-->
+    <string name="Salvar">Salvar</string>
+    <string name="Editar">Editar</string>
+    <string name="tab_1">tab_1</string>
+    <string name="tab_2">tab_2</string>
+    <string name="tab_3">tab_3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

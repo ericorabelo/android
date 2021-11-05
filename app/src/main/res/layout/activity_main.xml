@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btToggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarefa com Toggle	Button"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btSom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOCAR SOM" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner e RadioButton" />
+
+
+
+        <Button
+            android:id="@+id/btLongClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click Longo" />
+
+        <TextView
+            android:id="@+id/txLongClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Img no Background" />
+
+    <TextView
+        android:id="@+id/txImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btTabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tabs" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+
+
+    <!-- dropdown popup menu-->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Popup" />
+
+    </RelativeLayout>
+    <!-- dropdown popup menu-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lvEquipes">
+
+
+
+        </ListView>
+
+    </RelativeLayout>
+
+</LinearLayout>
